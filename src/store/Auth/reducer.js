@@ -2,7 +2,6 @@ import { initialAuthState, PERFORM_LOGIN_SUCCESS, PERFORM_LOGIN_FAILED, PERFORM_
 
 
 export const authReducer = (state = initialAuthState, action) => {
-    console.log(action)
     switch (action.type) {
         case PERFORM_LOGIN_SUCCESS:
             return {
